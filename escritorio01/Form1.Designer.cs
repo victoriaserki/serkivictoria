@@ -44,9 +44,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(63, 15);
+            label1.Size = new Size(73, 15);
             label1.TabIndex = 0;
-            label1.Text = "ejercicio01";
+            label1.Text = "EJERCICIO01";
             label1.Click += label1_Click;
             // 
             // label2
@@ -79,7 +79,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(119, 185);
+            label5.Location = new Point(217, 182);
             label5.Name = "label5";
             label5.Size = new Size(32, 15);
             label5.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(50, 140);
+            btnAceptar.Location = new Point(110, 140);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(75, 23);
             btnAceptar.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             // btnsalir
             // 
-            btnsalir.Location = new Point(151, 140);
+            btnsalir.Location = new Point(285, 140);
             btnsalir.Name = "btnsalir";
             btnsalir.Size = new Size(75, 23);
             btnsalir.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             txtnombre.Location = new Point(89, 48);
             txtnombre.Name = "txtnombre";
-            txtnombre.Size = new Size(100, 23);
+            txtnombre.Size = new Size(285, 23);
             txtnombre.TabIndex = 7;
             txtnombre.TextChanged += textBox1_TextChanged;
             // 
@@ -117,7 +117,7 @@
             // 
             txtApellido.Location = new Point(89, 92);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(100, 23);
+            txtApellido.Size = new Size(285, 23);
             txtApellido.TabIndex = 8;
             txtApellido.TextChanged += txtApellido_TextChanged;
             // 
@@ -125,7 +125,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(958, 450);
+            ClientSize = new Size(389, 206);
             Controls.Add(txtApellido);
             Controls.Add(txtnombre);
             Controls.Add(btnsalir);

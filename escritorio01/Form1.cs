@@ -35,6 +35,7 @@ namespace escritorio01
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             lblsalida.Text = txtnombre.Text + " " + txtApellido.Text;
+            //lbl_texto.Text = numero.ToString();(asignarle un numero a un label);
         }
 
         private void txtApellido_TextChanged(object sender, EventArgs e)
