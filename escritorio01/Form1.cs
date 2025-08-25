@@ -36,7 +36,9 @@ namespace escritorio01
         {
             lblsalida.Text = txtnombre.Text + " " + txtApellido.Text;
             //lbl_texto.Text = numero.ToString();(asignarle un numero a un label);
-        }
+            //byte textoDeltexbox=CONVERT.ToByte(txt_nombre.Text);(asignarle  un numero a un textBox);
+            //lbl_texto.text=textoDelTexBox.ToString();(asignarle un numero a un label desde un textBox);
+            
 
         private void txtApellido_TextChanged(object sender, EventArgs e)
         {
